@@ -11,6 +11,7 @@ class ArticlesController < ApplicationController
     render json: article
   end
 
+
   private
 
   def record_not_found
